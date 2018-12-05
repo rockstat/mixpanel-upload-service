@@ -5,9 +5,6 @@ redis_dsn: "{{REDIS_DSN|default('redis://redis:6379')}}"
 rpc_params:
   listen_all: yes
 mixpanel_token: "{{MP_TOKEN}}"
-mixpanel_api_secret: "{{MP_API_SECFRET}}"
 endpoint: 'http://api.mixpanel.com/track/'
 key_prefix: in.gen.track
-projects:
-  - 2142339853
-  - 2142340194
+
